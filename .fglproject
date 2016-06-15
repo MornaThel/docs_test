@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fglProject name="regular_expressions">
+<data>
+<item id="com.querix.fgl.core.pathentries">
+<pathentry kind="src" path="source"/>
+<pathentry kind="out" path="output"/>
+</item>
+<item id="com.querix.fgl.core.buildtargets">
+<buildTarget location="" name="04_regex_example2" type="fgl-program"/>
+</item>
+</data>
+</fglProject>

@@ -1,0 +1,240 @@
+<< "04_regex_example2.exe" >>
+<< testData # headless.QX_HEADLESS_MODE=2 >>
+<< testData # name=04_regex_example2 >>
+<< testData # atomic_before = ["h_define"] >>
+<< Started from client "127.0.0.1" >>
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;regex (\\w+)\\s(\\w+)&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;0&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;1&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;res1 = |Test Libraries Tee132est string Tem Test Lib11111raries Te string Temp Test Libraries Teeest string Temp|&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;search res prefix: \&quot;Test Libraries Tee132est string\&quot;\nsuffix: \&quot;Test Lib11111raries Te string Temp Test Libraries Teeest string Temp\&quot;\n\nmatched position             length               str\n1       31                   5                    \&quot; Tem \&quot;\n1       32                   2                    \&quot;Te\&quot;\n1       34                   1                    \&quot;m\&quot;&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;size           3&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;Prefix\t\t[          0] = Test Libraries Tee132est string&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;Suffix\t\t[          0] = Test Lib11111raries Te string Temp Test Libraries Teeest string Temp&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;string\t\t[          0] =  Tem &quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;full match \t[          0] = 1&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;position   \t[          0] =          31&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;lengh \t\t[          0] =           5&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;string\t\t[          1] = Te&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;full match \t[          1] = 1&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;position   \t[          1] =          32&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;lengh \t\t[          1] =           2&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;string\t\t[          2] = m&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;full match \t[          2] = 1&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;position   \t[          2] =          34&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;lengh \t\t[          2] =           1&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;res1 = |Test Lib11111raries Te string Temp Test Libraries Teeest string Temp|&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="open_window">&quot;SCREEN&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><setfocus>SCREEN</setfocus><idle type="getkey"/></response>
+<<<
+
+>>>
+<?xml version="1.0" encoding="utf-8"?>
+<fglevent name="accept"/>
+>>>
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;res1 = |Test Lib11111raries Te string Temp Test Libraries Teeest string Temp|&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;search res prefix: \&quot;Test Lib11111raries Te string\&quot;\nsuffix: \&quot;Test Libraries Teeest string Temp\&quot;\n\nmatched position             length               str\n1       29                   6                    \&quot; Temp \&quot;\n1       30                   3                    \&quot;Tem\&quot;\n1       33                   1                    \&quot;p\&quot;&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;size           3&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;Prefix\t\t[          3] = Test Lib11111raries Te string&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;Suffix\t\t[          3] = Test Libraries Teeest string Temp&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;string\t\t[          0] =  Temp &quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;full match \t[          0] = 1&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;position   \t[          0] =          29&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;lengh \t\t[          0] =           6&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;string\t\t[          1] = Tem&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;full match \t[          1] = 1&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;position   \t[          1] =          30&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;lengh \t\t[          1] =           3&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;string\t\t[          2] = p&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;full match \t[          2] = 1&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;position   \t[          2] =          33&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;lengh \t\t[          2] =           1&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;res1 = |Test Libraries Teeest string Temp|&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><idle type="getkey"/></response>
+<<<
+
+>>>
+<?xml version="1.0" encoding="utf-8"?>
+<fglevent name="accept"/>
+>>>
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;res1 = |Test Libraries Teeest string Temp|&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;search res false&quot;</signal></response>
+<<<
+
+<<<
+<?xml version="1.0" encoding="utf-8"?>
+<response><signal name="console">&quot;T[e]st str[i]ng&quot;</signal></response>
+<<<
